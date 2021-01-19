@@ -1,5 +1,5 @@
 genome hg19
-trackDb https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main/hg19/trackDB.txt
+trackDb https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main/hg19/trackDb.txt
 
 
 genome hg38
