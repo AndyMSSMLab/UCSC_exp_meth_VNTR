@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PPMI mVNTR</title>
+</head>
+<body>
+
+<h1>Description</h1>
+<p>Methylation VNTR (mVNTR) is defined by association between repeat length of VNTR and methylation levels of CpG within +/-50 kb of each other. The methylation levels were obtained from Illumina HumanMethylation 850K (EPIC) array and the repeat length for VNTRs were estimated using CNVnator on Whole Genome Sequencing.
+</p>
+
+<h1>Display Convention</h1>
+<p>The Track shows association between VNTR and CpG methylation. The <span style="color:red;">red</span> color indicate negative correlation, while <span style="color:blue;">blue</span> color indicate a positive correlation.</p>
+
+<h1>Method</h1>
+<p>WGS and methylation data for 249 individuals were selected from the cohort collected by the Pediatric Cardiac Genomic Consortium (PCGC). An extensive description of PCGC samples as well as further details about sample collection can be found in a summary publications released by the PCGC. Briefly, the cohort comprises individuals aged from
+newborn to 47 years (mean 8.2 years) diagnosed with a range of congenital heart defects, with conotruncal and left-sided obstructive lesions being the two most common diagnoses. Illumina 150bp paired-end WGS data generated using PCR-free libraries from peripheral blood DNA were obtained from dbGAP (Accession ID phs001138.v1.p2). Peripheral blood methylomes were downloaded from GEO (Accession ID GSE159930). Normalized β-values were adjusted for gender, age, the top three principal components from SNV genotypes, and estimated blood cell fractions. The residuals were then used to perform linear regression with VNTR genotype. Bonferroni correction was applied to the resulting p-values based on the total number of pairwise VNTR:CpG tests performed, and considered those with Bonferroni adjusted p<0.01 as significant.
+</p>
+
+
+<h1>References</h1>
+<p>The manuscript is currently under review. A copy of the manuscript is available here: <a href="https://www.biorxiv.org/content/10.1101/2020.12.16.423078v1">https://www.biorxiv.org/content/10.1101/2020.12.16.423078v1</a></p>
+
+</body>
+</html>
