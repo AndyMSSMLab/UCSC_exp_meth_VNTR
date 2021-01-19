@@ -1,0 +1,26 @@
+track gtexExpVntr
+bigDataUrl gtexExpVntr.bb
+shortLabel GTEx Expression VNTR
+longLabel Association between VNTR and gene expression in GTEx (48 Tissues)
+type bigInteract
+
+
+track pcgcMethVntr
+bigDataUrl pcgcMethVntr.bb
+shortLabel PCGC Methylation VNTR
+longLabel Association between VNTR and CpG methylation in PCGC
+type bigInteract
+
+
+track ppmiExpVntr
+bigDataUrl ppmiExpVntr.bb
+shortLabel PPMI Expression VNTR
+longLabel Association between VNTR and gene expression in PPMI
+type bigInteract
+
+
+track ppmiMethVntr
+bigDataUrl ppmiMethVntr.bb
+shortLabel PPMI Methylation VNTR
+longLabel Association between VNTR and CpG methylation in PPMI
+type bigInteract
