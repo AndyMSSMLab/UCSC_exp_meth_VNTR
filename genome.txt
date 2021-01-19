@@ -1,6 +1,6 @@
 genome hg19
-trackDb hg19/trackDb.txt
+trackDb https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main/hg19/trackDB.txt
 
 
 genome hg38
-trackDb hg38/trackDb.txt
+trackDb https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main/hg38/trackDb.txt
