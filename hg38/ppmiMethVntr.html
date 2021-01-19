@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>PPMI mVNTR</title>
+</head>
+<body>
+
+<h1>Description</h1>
+<p>Methylation VNTR (mVNTR) is defined by association between repeat length of VNTR and methylation levels of CpG within +/-50 kb of each other. The methylation levels were obtained from Illumina HumanMethylation 850K (EPIC) array and the repeat length for VNTRs were estimated using CNVnator on Whole Genome Sequencing.
+</p>
+
+<h1>Display Convention</h1>
+<p>The Track shows association between VNTR and CpG methylation. The <span style="color:red;">red</span> color indicate negative correlation, while <span style="color:blue;">blue</span> color indicate a positive correlation.</p>
+
+<h1>Method</h1>
+<p>We utilized data from the Parkinson’s Progression Markers Initiative (PPMI) cohort (https://www.ppmi-info.org/), corresponding to 712 individuals (189 healthy controls and 523 samples with varying types of Parkinsonism) with available Illumina WGS data aligned to the reference genome. DNA methylation data generated using the Illumina HumanMethylation 850K (EPIC) from peripheral blood DNA were available for 524 PPMI samples. Normalized
+β-values were adjusted for gender, age, the top three principal components from SNV genotypes, and estimated blood cell fractions. The residuals were then used to perform linear regression with VNTR genotype. Bonferroni correction was applied to the resulting p-values based on the total number of pairwise VNTR:CpG tests performed, and considered those with Bonferroni adjusted p<0.01 as significant.
+
+</p>
+
+
+<h1>References</h1>
+<p>The manuscript is currently under review. A copy of the manuscript is available here: <a href="https://www.biorxiv.org/content/10.1101/2020.12.16.423078v1">https://www.biorxiv.org/content/10.1101/2020.12.16.423078v1</a></p>
+
+</body>
+</html>
