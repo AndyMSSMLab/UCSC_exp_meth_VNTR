@@ -3,4 +3,4 @@ shortLabel Exp/Meth VNTR hub
 longLabel Association of VNTRs with Expression and Methylation in GTEx, PCGC and PPMI
 genomesFile genomes.txt
 email andrew.sharp@mssm.edu
-descriptionUrl https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main/ucsc_exp_meth_vntr.html
+descriptionUrl ucsc_exp_meth_vntr.html
