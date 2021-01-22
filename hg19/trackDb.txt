@@ -3,6 +3,7 @@ bigDataUrl https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main
 shortLabel GTEx Expression VNTR
 longLabel Association between VNTR and gene expression in GTEx (48 Tissues)
 type bigInteract
+visibility pack
 
 
 track pcgcMethVntr
@@ -10,6 +11,7 @@ bigDataUrl https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main
 shortLabel PCGC Methylation VNTR
 longLabel Association between VNTR and CpG methylation in PCGC
 type bigInteract
+visibility pack
 
 
 track ppmiExpVntr
@@ -17,6 +19,7 @@ bigDataUrl https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main
 shortLabel PPMI Expression VNTR
 longLabel Association between VNTR and gene expression in PPMI
 type bigInteract
+visibility pack
 
 
 track ppmiMethVntr
@@ -24,3 +27,4 @@ bigDataUrl https://raw.githubusercontent.com/AndyMSSMLab/UCSC_exp_meth_VNTR/main
 shortLabel PPMI Methylation VNTR
 longLabel Association between VNTR and CpG methylation in PPMI
 type bigInteract
+visibility pack
